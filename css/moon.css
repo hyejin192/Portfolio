@@ -1,0 +1,1984 @@
+.night {
+  position: absolute;
+  left: 4%;
+  top: 5%;
+  width: 250px;
+  height: 250px;
+}
+
+.night::after {
+  content: "";
+  position: absolute;
+  left: 35%;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  border-radius: 100%;
+  transform: scale(1.1);
+}
+
+.night::before {
+  content: "";
+  position: absolute;
+  bottom: -3%;
+  left: -10%;
+  width: 70%;
+  height: 6%;
+  background: #000;
+  border-radius: 100%;
+}
+
+.window {
+  position: absolute;
+  left: 3%;
+  bottom: -17%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(-45deg, #060f2c 0%, #2f3341 100%);
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.star {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+}
+
+.star:nth-child(1) {
+  top: 41%;
+  left: 19%;
+  background: #d9d9d9;
+}
+
+.star:nth-child(2) {
+  top: 27%;
+  left: 27%;
+  background: #636363;
+}
+
+.star:nth-child(3) {
+  top: 41%;
+  left: 60%;
+  background: #c3c3c3;
+}
+
+.star:nth-child(4) {
+  top: 21%;
+  left: 49%;
+  background: #5d5d5d;
+}
+
+.star:nth-child(5) {
+  top: 20%;
+  left: 19%;
+  background: #949494;
+}
+
+.star:nth-child(6) {
+  top: 71%;
+  left: 16%;
+  background: #f0f0f0;
+}
+
+.star:nth-child(7) {
+  top: 8%;
+  left: 75%;
+  background: #f0f0f0;
+}
+
+.star:nth-child(8) {
+  top: 61%;
+  left: 23%;
+  background: #787878;
+}
+
+.star:nth-child(9) {
+  top: 64%;
+  left: 4%;
+  background: #606060;
+}
+
+.star:nth-child(10) {
+  top: 66%;
+  left: 27%;
+  background: #838383;
+}
+
+.star:nth-child(11) {
+  top: 98%;
+  left: 83%;
+  background: #d5d5d5;
+}
+
+.star:nth-child(12) {
+  top: 91%;
+  left: 25%;
+  background: #020202;
+}
+
+.star:nth-child(13) {
+  top: 83%;
+  left: 99%;
+  background: #acacac;
+}
+
+.star:nth-child(14) {
+  top: 40%;
+  left: 73%;
+  background: #bebebe;
+}
+
+.star:nth-child(15) {
+  top: 11%;
+  left: 53%;
+  background: #404040;
+}
+
+.star:nth-child(16) {
+  top: 36%;
+  left: 25%;
+  background: #262626;
+}
+
+.star:nth-child(17) {
+  top: 28%;
+  left: 61%;
+  background: #5d5d5d;
+}
+
+.star:nth-child(18) {
+  top: 24%;
+  left: 21%;
+  background: #b6b6b6;
+}
+
+.star:nth-child(19) {
+  top: 66%;
+  left: 84%;
+  background: #545454;
+}
+
+.star:nth-child(20) {
+  top: 56%;
+  left: 35%;
+  background: #eaeaea;
+}
+
+.star:nth-child(21) {
+  top: 77%;
+  left: 83%;
+  background: #e0e0e0;
+}
+
+.star:nth-child(22) {
+  top: 13%;
+  left: 11%;
+  background: #0e0e0e;
+}
+
+.star:nth-child(23) {
+  top: 96%;
+  left: 77%;
+  background: #0f0f0f;
+}
+
+.star:nth-child(24) {
+  top: 95%;
+  left: 65%;
+  background: #3a3a3a;
+}
+
+.star:nth-child(25) {
+  top: 100%;
+  left: 12%;
+  background: #636363;
+}
+
+.star:nth-child(26) {
+  top: 76%;
+  left: 69%;
+  background: #060606;
+}
+
+.star:nth-child(27) {
+  top: 97%;
+  left: 13%;
+  background: #e4e4e4;
+}
+
+.star:nth-child(28) {
+  top: 83%;
+  left: 46%;
+  background: #111111;
+}
+
+.star:nth-child(29) {
+  top: 29%;
+  left: 2%;
+  background: #7c7c7c;
+}
+
+.star:nth-child(30) {
+  top: 97%;
+  left: 64%;
+  background: #f0f0f0;
+}
+
+.star:nth-child(31) {
+  top: 37%;
+  left: 1%;
+  background: #9a9a9a;
+}
+
+.star:nth-child(32) {
+  top: 27%;
+  left: 68%;
+  background: #fafafa;
+}
+
+.star:nth-child(33) {
+  top: 83%;
+  left: 30%;
+  background: #f6f6f6;
+}
+
+.star:nth-child(34) {
+  top: 68%;
+  left: 75%;
+  background: #989898;
+}
+
+.star:nth-child(35) {
+  top: 72%;
+  left: 9%;
+  background: #d1d1d1;
+}
+
+.star:nth-child(36) {
+  top: 48%;
+  left: 8%;
+  background: #5b5b5b;
+}
+
+.star:nth-child(37) {
+  top: 99%;
+  left: 37%;
+  background: #565656;
+}
+
+.star:nth-child(38) {
+  top: 81%;
+  left: 36%;
+  background: #141414;
+}
+
+.star:nth-child(39) {
+  top: 74%;
+  left: 95%;
+  background: #6f6f6f;
+}
+
+.star:nth-child(40) {
+  top: 57%;
+  left: 20%;
+  background: #1e1e1e;
+}
+
+.star:nth-child(41) {
+  top: 8%;
+  left: 68%;
+  background: #353535;
+}
+
+.star:nth-child(42) {
+  top: 35%;
+  left: 68%;
+  background: #131313;
+}
+
+.star:nth-child(43) {
+  top: 58%;
+  left: 13%;
+  background: #b7b7b7;
+}
+
+.star:nth-child(44) {
+  top: 11%;
+  left: 57%;
+  background: #717171;
+}
+
+.star:nth-child(45) {
+  top: 13%;
+  left: 2%;
+  background: #676767;
+}
+
+.star:nth-child(46) {
+  top: 35%;
+  left: 48%;
+  background: #060606;
+}
+
+.star:nth-child(47) {
+  top: 71%;
+  left: 83%;
+  background: #4e4e4e;
+}
+
+.star:nth-child(48) {
+  top: 41%;
+  left: 76%;
+  background: #ececec;
+}
+
+.star:nth-child(49) {
+  top: 91%;
+  left: 98%;
+  background: gray;
+}
+
+.star:nth-child(50) {
+  top: 19%;
+  left: 68%;
+  background: #4a4a4a;
+}
+
+.star:nth-child(51) {
+  top: 98%;
+  left: 28%;
+  background: #6c6c6c;
+}
+
+.star:nth-child(52) {
+  top: 27%;
+  left: 63%;
+  background: #b6b6b6;
+}
+
+.star:nth-child(53) {
+  top: 58%;
+  left: 83%;
+  background: #212121;
+}
+
+.star:nth-child(54) {
+  top: 17%;
+  left: 40%;
+  background: #6a6a6a;
+}
+
+.star:nth-child(55) {
+  top: 58%;
+  left: 89%;
+  background: #131313;
+}
+
+.star:nth-child(56) {
+  top: 69%;
+  left: 70%;
+  background: #e7e7e7;
+}
+
+.star:nth-child(57) {
+  top: 95%;
+  left: 59%;
+  background: #a2a2a2;
+}
+
+.star:nth-child(58) {
+  top: 87%;
+  left: 77%;
+  background: #1c1c1c;
+}
+
+.star:nth-child(59) {
+  top: 85%;
+  left: 36%;
+  background: #0e0e0e;
+}
+
+.star:nth-child(60) {
+  top: 49%;
+  left: 23%;
+  background: #969696;
+}
+
+.star:nth-child(61) {
+  top: 53%;
+  left: 50%;
+  background: #adadad;
+}
+
+.star:nth-child(62) {
+  top: 15%;
+  left: 59%;
+  background: #9c9c9c;
+}
+
+.star:nth-child(63) {
+  top: 31%;
+  left: 76%;
+  background: #595959;
+}
+
+.star:nth-child(64) {
+  top: 22%;
+  left: 74%;
+  background: #b1b1b1;
+}
+
+.star:nth-child(65) {
+  top: 99%;
+  left: 10%;
+  background: #fcfcfc;
+}
+
+.star:nth-child(66) {
+  top: 64%;
+  left: 53%;
+  background: #939393;
+}
+
+.star:nth-child(67) {
+  top: 28%;
+  left: 43%;
+  background: gray;
+}
+
+.star:nth-child(68) {
+  top: 19%;
+  left: 95%;
+  background: #3f3f3f;
+}
+
+.star:nth-child(69) {
+  top: 31%;
+  left: 64%;
+  background: #eaeaea;
+}
+
+.star:nth-child(70) {
+  top: 93%;
+  left: 91%;
+  background: #565656;
+}
+
+.star:nth-child(71) {
+  top: 55%;
+  left: 80%;
+  background: #666666;
+}
+
+.star:nth-child(72) {
+  top: 33%;
+  left: 11%;
+  background: #030303;
+}
+
+.star:nth-child(73) {
+  top: 53%;
+  left: 51%;
+  background: #909090;
+}
+
+.star:nth-child(74) {
+  top: 32%;
+  left: 43%;
+  background: #dbdbdb;
+}
+
+.star:nth-child(75) {
+  top: 48%;
+  left: 76%;
+  background: #fdfdfd;
+}
+
+.star:nth-child(76) {
+  top: 47%;
+  left: 29%;
+  background: #414141;
+}
+
+.star:nth-child(77) {
+  top: 13%;
+  left: 95%;
+  background: #7b7b7b;
+}
+
+.star:nth-child(78) {
+  top: 36%;
+  left: 80%;
+  background: #8d8d8d;
+}
+
+.star:nth-child(79) {
+  top: 62%;
+  left: 96%;
+  background: #191919;
+}
+
+.star:nth-child(80) {
+  top: 34%;
+  left: 12%;
+  background: #616161;
+}
+
+.star:nth-child(81) {
+  top: 100%;
+  left: 68%;
+  background: #6c6c6c;
+}
+
+.star:nth-child(82) {
+  top: 32%;
+  left: 81%;
+  background: #5a5a5a;
+}
+
+.star:nth-child(83) {
+  top: 60%;
+  left: 12%;
+  background: #898989;
+}
+
+.star:nth-child(84) {
+  top: 90%;
+  left: 64%;
+  background: #b9b9b9;
+}
+
+.star:nth-child(85) {
+  top: 80%;
+  left: 75%;
+  background: #e1e1e1;
+}
+
+.star:nth-child(86) {
+  top: 44%;
+  left: 16%;
+  background: #545454;
+}
+
+.star:nth-child(87) {
+  top: 48%;
+  left: 60%;
+  background: #e9e9e9;
+}
+
+.star:nth-child(88) {
+  top: 59%;
+  left: 21%;
+  background: #262626;
+}
+
+.star:nth-child(89) {
+  top: 34%;
+  left: 86%;
+  background: #5d5d5d;
+}
+
+.star:nth-child(90) {
+  top: 91%;
+  left: 57%;
+  background: #292929;
+}
+
+.star:nth-child(91) {
+  top: 44%;
+  left: 55%;
+  background: #e1e1e1;
+}
+
+.star:nth-child(92) {
+  top: 30%;
+  left: 94%;
+  background: gainsboro;
+}
+
+.star:nth-child(93) {
+  top: 66%;
+  left: 88%;
+  background: #a6a6a6;
+}
+
+.star:nth-child(94) {
+  top: 44%;
+  left: 49%;
+  background: #414141;
+}
+
+.star:nth-child(95) {
+  top: 60%;
+  left: 52%;
+  background: #797979;
+}
+
+.star:nth-child(96) {
+  top: 5%;
+  left: 46%;
+  background: #393939;
+}
+
+.star:nth-child(97) {
+  top: 29%;
+  left: 19%;
+  background: #4c4c4c;
+}
+
+.star:nth-child(98) {
+  top: 57%;
+  left: 87%;
+  background: #5b5b5b;
+}
+
+.star:nth-child(99) {
+  top: 53%;
+  left: 11%;
+  background: #bebebe;
+}
+
+.star:nth-child(100) {
+  top: 13%;
+  left: 31%;
+  background: dimgray;
+}
+
+.star:nth-child(101) {
+  top: 77%;
+  left: 4%;
+  background: #0b0b0b;
+}
+
+.star:nth-child(102) {
+  top: 45%;
+  left: 62%;
+  background: #0f0f0f;
+}
+
+.star:nth-child(103) {
+  top: 17%;
+  left: 58%;
+  background: #484848;
+}
+
+.star:nth-child(104) {
+  top: 58%;
+  left: 59%;
+  background: #a2a2a2;
+}
+
+.star:nth-child(105) {
+  top: 25%;
+  left: 66%;
+  background: #b3b3b3;
+}
+
+.star:nth-child(106) {
+  top: 6%;
+  left: 22%;
+  background: #4f4f4f;
+}
+
+.star:nth-child(107) {
+  top: 23%;
+  left: 10%;
+  background: lightgray;
+}
+
+.star:nth-child(108) {
+  top: 63%;
+  left: 43%;
+  background: #717171;
+}
+
+.star:nth-child(109) {
+  top: 4%;
+  left: 94%;
+  background: #5d5d5d;
+}
+
+.star:nth-child(110) {
+  top: 84%;
+  left: 74%;
+  background: #565656;
+}
+
+.star:nth-child(111) {
+  top: 17%;
+  left: 26%;
+  background: #0e0e0e;
+}
+
+.star:nth-child(112) {
+  top: 42%;
+  left: 24%;
+  background: #dadada;
+}
+
+.star:nth-child(113) {
+  top: 86%;
+  left: 78%;
+  background: #777777;
+}
+
+.star:nth-child(114) {
+  top: 14%;
+  left: 61%;
+  background: #a6a6a6;
+}
+
+.star:nth-child(115) {
+  top: 23%;
+  left: 44%;
+  background: #8f8f8f;
+}
+
+.star:nth-child(116) {
+  top: 82%;
+  left: 69%;
+  background: #acacac;
+}
+
+.star:nth-child(117) {
+  top: 72%;
+  left: 77%;
+  background: #b5b5b5;
+}
+
+.star:nth-child(118) {
+  top: 84%;
+  left: 90%;
+  background: #191919;
+}
+
+.star:nth-child(119) {
+  top: 64%;
+  left: 52%;
+  background: #6e6e6e;
+}
+
+.star:nth-child(120) {
+  top: 62%;
+  left: 2%;
+  background: #f6f6f6;
+}
+
+.star:nth-child(121) {
+  top: 52%;
+  left: 27%;
+  background: #e4e4e4;
+}
+
+.star:nth-child(122) {
+  top: 47%;
+  left: 67%;
+  background: #f0f0f0;
+}
+
+.star:nth-child(123) {
+  top: 99%;
+  left: 6%;
+  background: #d9d9d9;
+}
+
+.star:nth-child(124) {
+  top: 25%;
+  left: 61%;
+  background: #737373;
+}
+
+.star:nth-child(125) {
+  top: 73%;
+  left: 39%;
+  background: #767676;
+}
+
+.star:nth-child(126) {
+  top: 4%;
+  left: 82%;
+  background: #1d1d1d;
+}
+
+.star:nth-child(127) {
+  top: 71%;
+  left: 98%;
+  background: #393939;
+}
+
+.star:nth-child(128) {
+  top: 62%;
+  left: 52%;
+  background: #a7a7a7;
+}
+
+.star:nth-child(129) {
+  top: 87%;
+  left: 28%;
+  background: #a1a1a1;
+}
+
+.star:nth-child(130) {
+  top: 66%;
+  left: 53%;
+  background: #585858;
+}
+
+.star:nth-child(131) {
+  top: 20%;
+  left: 32%;
+  background: #272727;
+}
+
+.star:nth-child(132) {
+  top: 80%;
+  left: 48%;
+  background: #3c3c3c;
+}
+
+.star:nth-child(133) {
+  top: 85%;
+  left: 35%;
+  background: #e0e0e0;
+}
+
+.star:nth-child(134) {
+  top: 17%;
+  left: 83%;
+  background: #828282;
+}
+
+.star:nth-child(135) {
+  top: 11%;
+  left: 59%;
+  background: #cbcbcb;
+}
+
+.star:nth-child(136) {
+  top: 55%;
+  left: 81%;
+  background: #e0e0e0;
+}
+
+.star:nth-child(137) {
+  top: 47%;
+  left: 15%;
+  background: #141414;
+}
+
+.star:nth-child(138) {
+  top: 36%;
+  left: 55%;
+  background: #a3a3a3;
+}
+
+.star:nth-child(139) {
+  top: 66%;
+  left: 38%;
+  background: #9b9b9b;
+}
+
+.star:nth-child(140) {
+  top: 84%;
+  left: 34%;
+  background: #9c9c9c;
+}
+
+.star:nth-child(141) {
+  top: 82%;
+  left: 28%;
+  background: #181818;
+}
+
+.star:nth-child(142) {
+  top: 12%;
+  left: 69%;
+  background: #d9d9d9;
+}
+
+.star:nth-child(143) {
+  top: 15%;
+  left: 49%;
+  background: #e7e7e7;
+}
+
+.star:nth-child(144) {
+  top: 21%;
+  left: 97%;
+  background: #eaeaea;
+}
+
+.star:nth-child(145) {
+  top: 70%;
+  left: 67%;
+  background: #f3f3f3;
+}
+
+.star:nth-child(146) {
+  top: 10%;
+  left: 82%;
+  background: #474747;
+}
+
+.star:nth-child(147) {
+  top: 42%;
+  left: 81%;
+  background: #b9b9b9;
+}
+
+.star:nth-child(148) {
+  top: 84%;
+  left: 47%;
+  background: #afafaf;
+}
+
+.star:nth-child(149) {
+  top: 83%;
+  left: 92%;
+  background: #161616;
+}
+
+.star:nth-child(150) {
+  top: 36%;
+  left: 15%;
+  background: #f2f2f2;
+}
+
+.star:nth-child(151) {
+  top: 85%;
+  left: 7%;
+  background: #bcbcbc;
+}
+
+.star:nth-child(152) {
+  top: 42%;
+  left: 43%;
+  background: #848484;
+}
+
+.star:nth-child(153) {
+  top: 65%;
+  left: 60%;
+  background: dimgray;
+}
+
+.star:nth-child(154) {
+  top: 11%;
+  left: 44%;
+  background: #e1e1e1;
+}
+
+.star:nth-child(155) {
+  top: 34%;
+  left: 77%;
+  background: #060606;
+}
+
+.star:nth-child(156) {
+  top: 32%;
+  left: 96%;
+  background: #f4f4f4;
+}
+
+.star:nth-child(157) {
+  top: 22%;
+  left: 13%;
+  background: #131313;
+}
+
+.star:nth-child(158) {
+  top: 75%;
+  left: 6%;
+  background: #323232;
+}
+
+.star:nth-child(159) {
+  top: 48%;
+  left: 59%;
+  background: #181818;
+}
+
+.star:nth-child(160) {
+  top: 54%;
+  left: 50%;
+  background: #323232;
+}
+
+.star:nth-child(161) {
+  top: 93%;
+  left: 79%;
+  background: #070707;
+}
+
+.star:nth-child(162) {
+  top: 7%;
+  left: 62%;
+  background: #737373;
+}
+
+.star:nth-child(163) {
+  top: 6%;
+  left: 59%;
+  background: #1b1b1b;
+}
+
+.star:nth-child(164) {
+  top: 92%;
+  left: 42%;
+  background: #e8e8e8;
+}
+
+.star:nth-child(165) {
+  top: 23%;
+  left: 39%;
+  background: #090909;
+}
+
+.star:nth-child(166) {
+  top: 76%;
+  left: 23%;
+  background: lightgray;
+}
+
+.star:nth-child(167) {
+  top: 91%;
+  left: 100%;
+  background: #0f0f0f;
+}
+
+.star:nth-child(168) {
+  top: 12%;
+  left: 38%;
+  background: #515151;
+}
+
+.star:nth-child(169) {
+  top: 88%;
+  left: 13%;
+  background: #1c1c1c;
+}
+
+.star:nth-child(170) {
+  top: 69%;
+  left: 56%;
+  background: #6f6f6f;
+}
+
+.star:nth-child(171) {
+  top: 52%;
+  left: 4%;
+  background: #ececec;
+}
+
+.star:nth-child(172) {
+  top: 19%;
+  left: 80%;
+  background: #555555;
+}
+
+.star:nth-child(173) {
+  top: 73%;
+  left: 39%;
+  background: #6b6b6b;
+}
+
+.star:nth-child(174) {
+  top: 86%;
+  left: 16%;
+  background: #444444;
+}
+
+.star:nth-child(175) {
+  top: 9%;
+  left: 57%;
+  background: #e3e3e3;
+}
+
+.star:nth-child(176) {
+  top: 52%;
+  left: 85%;
+  background: #eeeeee;
+}
+
+.star:nth-child(177) {
+  top: 42%;
+  left: 67%;
+  background: #030303;
+}
+
+.star:nth-child(178) {
+  top: 61%;
+  left: 92%;
+  background: #030303;
+}
+
+.star:nth-child(179) {
+  top: 97%;
+  left: 11%;
+  background: #b6b6b6;
+}
+
+.star:nth-child(180) {
+  top: 50%;
+  left: 31%;
+  background: #9b9b9b;
+}
+
+.star:nth-child(181) {
+  top: 92%;
+  left: 6%;
+  background: #737373;
+}
+
+.star:nth-child(182) {
+  top: 79%;
+  left: 97%;
+  background: #484848;
+}
+
+.star:nth-child(183) {
+  top: 65%;
+  left: 85%;
+  background: #3d3d3d;
+}
+
+.star:nth-child(184) {
+  top: 36%;
+  left: 80%;
+  background: #999999;
+}
+
+.star:nth-child(185) {
+  top: 92%;
+  left: 55%;
+  background: #111111;
+}
+
+.star:nth-child(186) {
+  top: 14%;
+  left: 66%;
+  background: #bcbcbc;
+}
+
+.star:nth-child(187) {
+  top: 22%;
+  left: 36%;
+  background: #656565;
+}
+
+.star:nth-child(188) {
+  top: 94%;
+  left: 12%;
+  background: #1b1b1b;
+}
+
+.star:nth-child(189) {
+  top: 62%;
+  left: 86%;
+  background: #bcbcbc;
+}
+
+.star:nth-child(190) {
+  top: 33%;
+  left: 59%;
+  background: #868686;
+}
+
+.star:nth-child(191) {
+  top: 36%;
+  left: 28%;
+  background: #1e1e1e;
+}
+
+.star:nth-child(192) {
+  top: 74%;
+  left: 70%;
+  background: #0d0d0d;
+}
+
+.star:nth-child(193) {
+  top: 96%;
+  left: 41%;
+  background: #070707;
+}
+
+.star:nth-child(194) {
+  top: 11%;
+  left: 99%;
+  background: #9d9d9d;
+}
+
+.star:nth-child(195) {
+  top: 75%;
+  left: 87%;
+  background: #202020;
+}
+
+.star:nth-child(196) {
+  top: 53%;
+  left: 47%;
+  background: #101010;
+}
+
+.star:nth-child(197) {
+  top: 74%;
+  left: 95%;
+  background: #373737;
+}
+
+.star:nth-child(198) {
+  top: 44%;
+  left: 72%;
+  background: #d6d6d6;
+}
+
+.star:nth-child(199) {
+  top: 44%;
+  left: 88%;
+  background: #f9f9f9;
+}
+
+.star:nth-child(200) {
+  top: 40%;
+  left: 44%;
+  background: #202020;
+}
+
+.star:nth-child(201) {
+  top: 77%;
+  left: 69%;
+  background: #efefef;
+}
+
+.star:nth-child(202) {
+  top: 51%;
+  left: 28%;
+  background: #9c9c9c;
+}
+
+.star:nth-child(203) {
+  top: 66%;
+  left: 58%;
+  background: #adadad;
+}
+
+.star:nth-child(204) {
+  top: 87%;
+  left: 89%;
+  background: #e3e3e3;
+}
+
+.star:nth-child(205) {
+  top: 34%;
+  left: 71%;
+  background: #585858;
+}
+
+.star:nth-child(206) {
+  top: 4%;
+  left: 35%;
+  background: #2b2b2b;
+}
+
+.star:nth-child(207) {
+  top: 59%;
+  left: 83%;
+  background: #efefef;
+}
+
+.star:nth-child(208) {
+  top: 54%;
+  left: 57%;
+  background: #3f3f3f;
+}
+
+.star:nth-child(209) {
+  top: 6%;
+  left: 90%;
+  background: #bababa;
+}
+
+.star:nth-child(210) {
+  top: 68%;
+  left: 49%;
+  background: #909090;
+}
+
+.star:nth-child(211) {
+  top: 50%;
+  left: 93%;
+  background: #fdfdfd;
+}
+
+.star:nth-child(212) {
+  top: 44%;
+  left: 12%;
+  background: #bbbbbb;
+}
+
+.star:nth-child(213) {
+  top: 84%;
+  left: 23%;
+  background: #c7c7c7;
+}
+
+.star:nth-child(214) {
+  top: 21%;
+  left: 90%;
+  background: #1f1f1f;
+}
+
+.star:nth-child(215) {
+  top: 47%;
+  left: 58%;
+  background: #464646;
+}
+
+.star:nth-child(216) {
+  top: 20%;
+  left: 84%;
+  background: #ededed;
+}
+
+.star:nth-child(217) {
+  top: 55%;
+  left: 65%;
+  background: #c3c3c3;
+}
+
+.star:nth-child(218) {
+  top: 85%;
+  left: 35%;
+  background: #b5b5b5;
+}
+
+.star:nth-child(219) {
+  top: 21%;
+  left: 28%;
+  background: #909090;
+}
+
+.star:nth-child(220) {
+  top: 13%;
+  left: 80%;
+  background: #0e0e0e;
+}
+
+.star:nth-child(221) {
+  top: 25%;
+  left: 55%;
+  background: #3b3b3b;
+}
+
+.star:nth-child(222) {
+  top: 85%;
+  left: 47%;
+  background: #1f1f1f;
+}
+
+.star:nth-child(223) {
+  top: 59%;
+  left: 7%;
+  background: #c2c2c2;
+}
+
+.star:nth-child(224) {
+  top: 77%;
+  left: 80%;
+  background: #939393;
+}
+
+.star:nth-child(225) {
+  top: 92%;
+  left: 11%;
+  background: lightgray;
+}
+
+.star:nth-child(226) {
+  top: 43%;
+  left: 99%;
+  background: #b1b1b1;
+}
+
+.star:nth-child(227) {
+  top: 92%;
+  left: 24%;
+  background: gainsboro;
+}
+
+.star:nth-child(228) {
+  top: 65%;
+  left: 18%;
+  background: #131313;
+}
+
+.star:nth-child(229) {
+  top: 74%;
+  left: 19%;
+  background: #a2a2a2;
+}
+
+.star:nth-child(230) {
+  top: 37%;
+  left: 48%;
+  background: #1a1a1a;
+}
+
+.star:nth-child(231) {
+  top: 11%;
+  left: 34%;
+  background: #e1e1e1;
+}
+
+.star:nth-child(232) {
+  top: 39%;
+  left: 78%;
+  background: #535353;
+}
+
+.star:nth-child(233) {
+  top: 79%;
+  left: 65%;
+  background: #fefefe;
+}
+
+.star:nth-child(234) {
+  top: 100%;
+  left: 15%;
+  background: #ebebeb;
+}
+
+.star:nth-child(235) {
+  top: 53%;
+  left: 7%;
+  background: #f8f8f8;
+}
+
+.star:nth-child(236) {
+  top: 76%;
+  left: 54%;
+  background: #8e8e8e;
+}
+
+.star:nth-child(237) {
+  top: 37%;
+  left: 2%;
+  background: #7a7a7a;
+}
+
+.star:nth-child(238) {
+  top: 60%;
+  left: 80%;
+  background: #6d6d6d;
+}
+
+.star:nth-child(239) {
+  top: 15%;
+  left: 82%;
+  background: #1e1e1e;
+}
+
+.star:nth-child(240) {
+  top: 39%;
+  left: 29%;
+  background: #cccccc;
+}
+
+.star:nth-child(241) {
+  top: 85%;
+  left: 47%;
+  background: #f8f8f8;
+}
+
+.star:nth-child(242) {
+  top: 52%;
+  left: 76%;
+  background: #b8b8b8;
+}
+
+.star:nth-child(243) {
+  top: 28%;
+  left: 10%;
+  background: #030303;
+}
+
+.star:nth-child(244) {
+  top: 87%;
+  left: 7%;
+  background: #d4d4d4;
+}
+
+.star:nth-child(245) {
+  top: 65%;
+  left: 15%;
+  background: #0b0b0b;
+}
+
+.star:nth-child(246) {
+  top: 35%;
+  left: 3%;
+  background: #b1b1b1;
+}
+
+.star:nth-child(247) {
+  top: 53%;
+  left: 28%;
+  background: #c8c8c8;
+}
+
+.star:nth-child(248) {
+  top: 60%;
+  left: 17%;
+  background: #515151;
+}
+
+.star:nth-child(249) {
+  top: 89%;
+  left: 77%;
+  background: #272727;
+}
+
+.star:nth-child(250) {
+  top: 66%;
+  left: 85%;
+  background: #a5a5a5;
+}
+
+.stars {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-animation: slide 30000ms linear infinite;
+  animation: slide 30000ms linear infinite;
+}
+
+.stars:nth-child(2) {
+  left: 100%;
+}
+
+.shooting {
+  position: absolute;
+  width: 50px;
+  height: 1px;
+  background: linear-gradient(90deg, white, rgba(255, 255, 255, 0));
+  background: linear-gradient(90deg, #0093e9 0%, rgba(128, 208, 199, 0) 100%);
+  opacity: 0;
+  -webkit-animation: shooting 5000ms linear infinite;
+  animation: shooting 5000ms linear infinite;
+}
+
+.shooting:nth-child(1) {
+  top: 27%;
+  left: 27%;
+  -webkit-animation-delay: 1514ms;
+  animation-delay: 1514ms;
+}
+
+.shooting:nth-child(2) {
+  top: 19%;
+  left: 68%;
+  -webkit-animation-delay: 3289ms;
+  animation-delay: 3289ms;
+}
+
+.shooting:nth-child(3) {
+  top: 7%;
+  left: 83%;
+  -webkit-animation-delay: 7893ms;
+  animation-delay: 7893ms;
+}
+
+.shooting:nth-child(4) {
+  top: 6%;
+  left: 11%;
+  -webkit-animation-delay: 1441ms;
+  animation-delay: 1441ms;
+}
+
+.shooting:nth-child(5) {
+  top: 94%;
+  left: 30%;
+  -webkit-animation-delay: 7904ms;
+  animation-delay: 7904ms;
+}
+
+.shooting:nth-child(6) {
+  top: 3%;
+  left: 88%;
+  -webkit-animation-delay: 1584ms;
+  animation-delay: 1584ms;
+}
+
+.shooting:nth-child(7) {
+  top: 38%;
+  left: 12%;
+  -webkit-animation-delay: 6826ms;
+  animation-delay: 6826ms;
+}
+
+.shooting:nth-child(8) {
+  top: 62%;
+  left: 88%;
+  -webkit-animation-delay: 831ms;
+  animation-delay: 831ms;
+}
+
+.shooting:nth-child(9) {
+  top: 23%;
+  left: 66%;
+  -webkit-animation-delay: 6467ms;
+  animation-delay: 6467ms;
+}
+
+.shooting:nth-child(10) {
+  top: 71%;
+  left: 6%;
+  -webkit-animation-delay: 8166ms;
+  animation-delay: 8166ms;
+}
+
+.shooting:nth-child(11) {
+  top: 84%;
+  left: 51%;
+  -webkit-animation-delay: 1415ms;
+  animation-delay: 1415ms;
+}
+
+.shooting:nth-child(12) {
+  top: 12%;
+  left: 72%;
+  -webkit-animation-delay: 1234ms;
+  animation-delay: 1234ms;
+}
+
+.shooting:nth-child(13) {
+  top: 46%;
+  left: 45%;
+  -webkit-animation-delay: 1958ms;
+  animation-delay: 1958ms;
+}
+
+.shooting:nth-child(14) {
+  top: 41%;
+  left: 37%;
+  -webkit-animation-delay: 5548ms;
+  animation-delay: 5548ms;
+}
+
+.shooting:nth-child(15) {
+  top: 10%;
+  left: 25%;
+  -webkit-animation-delay: 4636ms;
+  animation-delay: 4636ms;
+}
+
+.shooting:nth-child(16) {
+  top: 63%;
+  left: 57%;
+  -webkit-animation-delay: 3161ms;
+  animation-delay: 3161ms;
+}
+
+.shooting:nth-child(17) {
+  top: 13%;
+  left: 37%;
+  -webkit-animation-delay: 5695ms;
+  animation-delay: 5695ms;
+}
+
+.shooting:nth-child(18) {
+  top: 64%;
+  left: 58%;
+  -webkit-animation-delay: 1699ms;
+  animation-delay: 1699ms;
+}
+
+.shooting:nth-child(19) {
+  top: 50%;
+  left: 93%;
+  -webkit-animation-delay: 9838ms;
+  animation-delay: 9838ms;
+}
+
+.shooting:nth-child(20) {
+  top: 14%;
+  left: 9%;
+  -webkit-animation-delay: 1265ms;
+  animation-delay: 1265ms;
+}
+
+.shooting:nth-child(21) {
+  top: 67%;
+  left: 68%;
+  -webkit-animation-delay: 1458ms;
+  animation-delay: 1458ms;
+}
+
+.shooting:nth-child(22) {
+  top: 26%;
+  left: 19%;
+  -webkit-animation-delay: 409ms;
+  animation-delay: 409ms;
+}
+
+.shooting:nth-child(23) {
+  top: 95%;
+  left: 12%;
+  -webkit-animation-delay: 2691ms;
+  animation-delay: 2691ms;
+}
+
+.shooting:nth-child(24) {
+  top: 41%;
+  left: 10%;
+  -webkit-animation-delay: 8206ms;
+  animation-delay: 8206ms;
+}
+
+.shooting:nth-child(25) {
+  top: 67%;
+  left: 33%;
+  -webkit-animation-delay: 3164ms;
+  animation-delay: 3164ms;
+}
+
+.shooting:nth-child(26) {
+  top: 65%;
+  left: 49%;
+  -webkit-animation-delay: 6365ms;
+  animation-delay: 6365ms;
+}
+
+.shooting:nth-child(27) {
+  top: 37%;
+  left: 21%;
+  -webkit-animation-delay: 4186ms;
+  animation-delay: 4186ms;
+}
+
+.shooting:nth-child(28) {
+  top: 57%;
+  left: 93%;
+  -webkit-animation-delay: 82ms;
+  animation-delay: 82ms;
+}
+
+.shooting:nth-child(29) {
+  top: 9%;
+  left: 14%;
+  -webkit-animation-delay: 9620ms;
+  animation-delay: 9620ms;
+}
+
+.shooting:nth-child(30) {
+  top: 78%;
+  left: 74%;
+  -webkit-animation-delay: 4911ms;
+  animation-delay: 4911ms;
+}
+
+.shooting:nth-child(31) {
+  top: 88%;
+  left: 77%;
+  -webkit-animation-delay: 2256ms;
+  animation-delay: 2256ms;
+}
+
+.shooting:nth-child(32) {
+  top: 33%;
+  left: 16%;
+  -webkit-animation-delay: 6927ms;
+  animation-delay: 6927ms;
+}
+
+.shooting:nth-child(33) {
+  top: 9%;
+  left: 19%;
+  -webkit-animation-delay: 1684ms;
+  animation-delay: 1684ms;
+}
+
+.shooting:nth-child(34) {
+  top: 73%;
+  left: 71%;
+  -webkit-animation-delay: 1762ms;
+  animation-delay: 1762ms;
+}
+
+.shooting:nth-child(35) {
+  top: 45%;
+  left: 31%;
+  -webkit-animation-delay: 2578ms;
+  animation-delay: 2578ms;
+}
+
+.shooting:nth-child(36) {
+  top: 86%;
+  left: 85%;
+  -webkit-animation-delay: 1866ms;
+  animation-delay: 1866ms;
+}
+
+.shooting:nth-child(37) {
+  top: 85%;
+  left: 26%;
+  -webkit-animation-delay: 3864ms;
+  animation-delay: 3864ms;
+}
+
+.shooting:nth-child(38) {
+  top: 19%;
+  left: 63%;
+  -webkit-animation-delay: 3625ms;
+  animation-delay: 3625ms;
+}
+
+.shooting:nth-child(39) {
+  top: 16%;
+  left: 74%;
+  -webkit-animation-delay: 3389ms;
+  animation-delay: 3389ms;
+}
+
+.shooting:nth-child(40) {
+  top: 64%;
+  left: 53%;
+  -webkit-animation-delay: 6723ms;
+  animation-delay: 6723ms;
+}
+
+.shooting:nth-child(41) {
+  top: 53%;
+  left: 33%;
+  -webkit-animation-delay: 5121ms;
+  animation-delay: 5121ms;
+}
+
+.shooting:nth-child(42) {
+  top: 41%;
+  left: 97%;
+  -webkit-animation-delay: 7149ms;
+  animation-delay: 7149ms;
+}
+
+.shooting:nth-child(43) {
+  top: 66%;
+  left: 94%;
+  -webkit-animation-delay: 5355ms;
+  animation-delay: 5355ms;
+}
+
+.shooting:nth-child(44) {
+  top: 47%;
+  left: 9%;
+  -webkit-animation-delay: 2822ms;
+  animation-delay: 2822ms;
+}
+
+.shooting:nth-child(45) {
+  top: 25%;
+  left: 75%;
+  -webkit-animation-delay: 3122ms;
+  animation-delay: 3122ms;
+}
+
+.shooting:nth-child(46) {
+  top: 83%;
+  left: 11%;
+  -webkit-animation-delay: 1092ms;
+  animation-delay: 1092ms;
+}
+
+.shooting:nth-child(47) {
+  top: 17%;
+  left: 15%;
+  -webkit-animation-delay: 153ms;
+  animation-delay: 153ms;
+}
+
+.shooting:nth-child(48) {
+  top: 73%;
+  left: 74%;
+  -webkit-animation-delay: 6897ms;
+  animation-delay: 6897ms;
+}
+
+.shooting:nth-child(49) {
+  top: 38%;
+  left: 81%;
+  -webkit-animation-delay: 2969ms;
+  animation-delay: 2969ms;
+}
+
+.shooting:nth-child(50) {
+  top: 45%;
+  left: 30%;
+  -webkit-animation-delay: 3394ms;
+  animation-delay: 3394ms;
+}
+
+@-webkit-keyframes shooting {
+  0% {
+    opacity: 0;
+    transform: rotateZ(-30deg) translateX(0) scaleX(0);
+  }
+
+  25% {
+    opacity: 1;
+    transform: rotateZ(-30deg) transalteX(-200%) scaleX(1);
+  }
+
+  50% {
+    opacity: 0;
+    transform: rotateZ(-30deg) translateX(-400%) scaleX(2);
+  }
+
+  100% {
+    opacity: 0;
+    transform: rotateZ(-30deg) translateX(-400%) scaleX(2);
+  }
+}
+
+@keyframes shooting {
+  0% {
+    opacity: 0;
+    transform: rotateZ(-30deg) translateX(0) scaleX(0);
+  }
+
+  25% {
+    opacity: 1;
+    transform: rotateZ(-30deg) transalteX(-200%) scaleX(1);
+  }
+
+  50% {
+    opacity: 0;
+    transform: rotateZ(-30deg) translateX(-400%) scaleX(2);
+  }
+
+  100% {
+    opacity: 0;
+    transform: rotateZ(-30deg) translateX(-400%) scaleX(2);
+  }
+}
+
+@-webkit-keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
