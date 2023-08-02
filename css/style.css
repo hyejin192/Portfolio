@@ -61,6 +61,7 @@ button {outline: none; background: none; border: none;}
     font-family: 'HakgyoansimWoojuR';
     box-sizing: border-box;
     font-weight: bold;
+font-size:18px;
 }
 
 .close {
