@@ -52,34 +52,42 @@ button {outline: none; background: none; border: none;}
     z-index: 99;
     position: fixed;
     top: 100px; left: 100px;
-    padding: 50px;
+    padding: 40px 50px;
     border: 1px solid #ccc;
     color: #333;
     line-height: 40px;
     background-color: #fff;
-    border-radius: 20px;
+    border-radius: 60px;
     font-family: 'HakgyoansimWoojuR';
     box-sizing: border-box;
     font-weight: bold;
-font-size:18px;
 }
-
+.notice strong {
+    font-size: 22px;
+}
 .close {
     position: absolute;
-    right: 15px; top: 15px;
+    right: 18px; top: 31px;
     color: #333;
     text-decoration: none;
     width: 50px; height: 30px;
-    line-height: 30px;
+    line-height: 25px;
     border-radius: 10px;
     font-size: 25px;
     text-align: center;
 }
 .notice_close {
+    width: 50%;
+    border-radius: 20px;
+    padding-left: 20px;
+    background-color: #ced1f57c;
     margin-top: 60px;
     font-size: 17px;
+    transition: 0.3s;
 }
-
+.notice_close:hover {
+    background-color:  #b0b5e2af;
+}
 /* ---------------------------------------- intro */
 .intro {
     overflow: hidden;
@@ -1279,15 +1287,15 @@ svg{
 }
 
 .website_clock {
-    background: url(../img/clock_bg2.gif)no-repeat;
-    background-position: 0 -50px;
+    background: url(../img/wave4.gif)no-repeat;
+    filter: grayscale(100%);
+    background-position: 0 0px;
     position: absolute;
     z-index: 29;
     right: 12%; top: 250px;
     width: 350px; height: 200px;
     text-align: center;
     border-radius: 20px;
-    border: 1px solid #ccc;
 }
 .clock_top {
     position: absolute;
@@ -1315,7 +1323,7 @@ svg{
 .website_clock .time_box span,
 .website_clock .date_box span {
     display: inline-block;
-    padding-top: 40px;
+    padding-top: 50px;
     color: #eee;
     font-size: 18px;
     font-family: 'Coda', cursive;
@@ -2592,7 +2600,7 @@ svg{
     font-family: 'HakgyoansimWoojuR';
     font-weight: bold;
     font-size: 16px;
-    font-style: italic;
+
     padding: 0 0 80px 30px;
     transition: 0.3s;
     opacity: 0;
