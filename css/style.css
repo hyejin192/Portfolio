@@ -47,23 +47,32 @@ button {outline: none; background: none; border: none;}
   content: "";
   clear: both;
 }
+.notice h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
 
+}
 .notice {
     z-index: 99;
     position: fixed;
     top: 100px; left: 100px;
-    padding: 40px 50px;
+    padding: 30px 50px 40px;
     border: 1px solid #ccc;
     color: #333;
-    line-height: 40px;
+    line-height: 35px;
     background-color: #fff;
-    border-radius: 60px;
+    border-radius: 50px;
     font-family: 'HakgyoansimWoojuR';
     box-sizing: border-box;
     font-weight: bold;
+    box-shadow: 2px 2px 9px rgba(255,255,255,0.4);
+    animation: notice_Box 4s infinite linear;
 }
 .notice strong {
     font-size: 22px;
+    letter-spacing: 2px;
 }
 .close {
     position: absolute;
@@ -81,12 +90,18 @@ button {outline: none; background: none; border: none;}
     border-radius: 20px;
     padding-left: 20px;
     background-color: #ced1f57c;
-    margin-top: 60px;
+    margin-top: 40px;
     font-size: 17px;
     transition: 0.3s;
 }
 .notice_close:hover {
     background-color:  #b0b5e2af;
+}
+
+@keyframes notice_Box {
+    0% {transform: translateY(-50px);}
+    50% {transform: translateY(0px);}
+    100% {transform: translateY(-50px);}
 }
 /* ---------------------------------------- intro */
 .intro {
@@ -784,7 +799,7 @@ svg{
 .about_section1 .about_ele_wrap .about_ele4 {
     background: url(../img/myphoto10.jpeg) no-repeat;
     background-size: cover;
-    background-position: 0px -70px;
+    background-position: 0px -120px;
 }
 
 .about_section2 .about_ele_wrap .about_ele1 {
@@ -921,10 +936,11 @@ svg{
 .skill_desc {
     position: absolute;
     z-index: 10;
-    top: 180px;
-    right: 14%;
+    top: 190px;
+    right: 12%;
     color: #fff;
-    font-size: 17px;
+    font-size: 20px;
+    font-style: italic;
     letter-spacing: 3px;
     font-family: 'HakgyoansimWoojuR';
     font-weight: bold;
@@ -1589,7 +1605,7 @@ svg{
     position: absolute;
     width: 260px;
     right: 6%; bottom: -30px;
-    opacity: 0.7;
+    opacity: 0.4;
 }
 .megabox_screen_pc {
     position: absolute;
@@ -1819,7 +1835,7 @@ svg{
     width: 350px;
     right: 9.2%; top: -180px;
     transform: rotate(-98deg);
-    opacity: 0.8;
+    opacity: 0.5;
     filter: grayscale(40%);
 }
 .webstand_screen_pc {
