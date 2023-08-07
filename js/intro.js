@@ -24,7 +24,7 @@ window.addEventListener("DOMContentLoaded", () => {
       opacity: 0,
       z: 0,
       duration: 1,
-      stagger: 0.16,
+      stagger: 0.14,
     }
   );
 
@@ -39,7 +39,7 @@ function handleImageLoad() {
     opacity: 1,
     z: 50,
     duration: 1,
-    stagger: 0.16
+    stagger: 0.14
   });
 }
 
