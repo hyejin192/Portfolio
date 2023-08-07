@@ -28,7 +28,7 @@ body {background-color: #000;}
 
 .Wrap {overflow: hidden;}
 
-.Fixtext {position: fixed; z-index: 2000; left: 20px; top: 20px; color: #fff;}
+.Fixtext {position: fixed; z-index: 2000; left: 20px; top: 20px; color: #fff; opacity:0;}
 
 ul,li,dl,dt,dd {
     list-style: none;
